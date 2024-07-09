@@ -1,0 +1,561 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik";
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* HERO✅✅✅ */
+.hero {
+  background-image: linear-gradient(
+      180deg,
+      rgba(7, 2, 17, 0.6),
+      rgba(7, 2, 17, 0.3) 100%
+    ),
+    url(../images/Banner\ Image.png);
+  height: 98vh;
+
+  clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.6rem;
+}
+
+.hero span {
+  font-size: 3.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(12, 94, 202, 0.8);
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 6.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(202, 12, 167, 0.8);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+/* ⛔⛔⛔ */
+
+/* CATEGORIES✅✅✅ */
+.catagories {
+  padding: 5.2rem 0 9.6rem 0;
+}
+
+.catagories div {
+  max-width: 80rem;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.catagories span {
+  font-size: 4.4rem;
+  color: rgba(255, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(140, 4, 22, 0.4);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.catagories h2 {
+  font-size: 3.6rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.catagories h4 {
+  font-size: 3rem;
+  color: rgba(128, 2, 84, 0.8);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(130, 130, 130, 0.6);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.catagories img {
+  width: 90%;
+}
+/* ⛔⛔⛔ */
+
+/* VICTORY✅✅✅ */
+.victory {
+  background-image: linear-gradient(
+      90deg,
+      rgba(7, 2, 17, 0.8),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(../images/Victory.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70rem;
+  clip-path: polygon(0 6%, 100% 1%, 100% 100%, 0% 100%);
+  margin-bottom: 9.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.victory > div {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.victory-content {
+  max-width: 70rem;
+}
+
+.victory-content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.victory-content > div h3 {
+  font-size: 4.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(202, 12, 167, 0.8);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.victory-content > div p {
+  font-size: 1.8rem;
+  color: rgba(222, 222, 222, 0.8);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.btn:link,
+.btn:visited {
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 1.6rem 2.2rem;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  display: inline-block;
+  background-color: rgba(196, 192, 188, 0.4);
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba(255, 0, 0, 0.2);
+  align-self: flex-start;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgba(196, 192, 188, 0.3);
+}
+/* ⛔⛔⛔ */
+
+/* ENJOY✅✅✅ */
+.enjoy {
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enjoy > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 0 2rem;
+}
+
+.enjoy--content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.enjoy--content h4 {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+}
+
+.enjoy--content p {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+  margin-top: 2rem;
+  max-width: 40rem;
+}
+
+.enjoy--content span {
+  font-size: 3.6rem;
+  color: rgba(220, 220, 220, 0.8);
+  text-shadow: 0.2rem 0.2rem 0.4rem rgba(202, 12, 37, 0.8);
+  font-weight: 600;
+}
+
+.enjoy--img {
+  display: flex;
+  justify-content: center;
+}
+
+.enjoy--img img {
+  width: 70%;
+  padding: 1.5rem;
+  border: 1.5rem solid rgba(255, 0, 0, 0.6);
+  border-radius: 50%;
+}
+
+.hudai {
+  align-self: flex-end;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hudai span {
+  font-size: 4.4rem;
+  color: rgba(255, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(140, 4, 22, 0.4);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.hudai p {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+  margin-bottom: 2rem;
+  max-width: 34rem;
+}
+
+.hudai img {
+  width: 40%;
+}
+/* ⛔⛔⛔ */
+
+/* ANSAN✅✅✅ */
+.ansan {
+  padding: 2rem 0 9.6rem 0;
+}
+
+.ansan--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.ansan--content h4 {
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+}
+
+.ansan--content h2 {
+  font-size: 3.6rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+}
+
+.ansan--content h2 span {
+  color: rgba(255, 0, 0, 0.6);
+}
+
+.ansan--content p {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+  margin-top: 2rem;
+  max-width: 70rem;
+  text-align: center;
+}
+
+.ansan-img > div {
+  margin: 35rem auto 0 auto;
+  max-width: 100rem;
+  position: relative;
+}
+
+.lal-big {
+  max-width: 100rem;
+  margin-top: 10rem;
+  border-radius: 1.5rem;
+}
+
+.box-img {
+  position: absolute;
+  width: 60rem;
+  bottom: 0;
+  left: 0;
+}
+
+.laddu {
+  position: absolute;
+  width: 30rem;
+  left: 63.35%;
+  right: -34.5%;
+  top: -85%;
+  bottom: -105.8%;
+}
+/* ⛔⛔⛔ */
+
+/* GIFTS✅✅✅ */
+.gifts {
+  padding: 4.8rem 0 6.8rem 0;
+}
+
+.gifts > div {
+  max-width: 100rem;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.gifts--content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.gifts--content h2 {
+  font-size: 2rem;
+  color: rgba(255, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+}
+
+.gifts--content h3 {
+  font-size: 2.6rem;
+  color: rgba(9, 90, 171, 0.8);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(100, 96, 99, 0.6);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.gifts--content p {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+  margin-top: 2rem;
+  max-width: 60rem;
+}
+
+.gifts--img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 2rem;
+  column-gap: 2rem;
+  max-width: 100rem;
+}
+
+.gifts--img img {
+  display: inline;
+  width: 100%;
+}
+/* ⛔⛔⛔ */
+
+/* SUBSCRIBE✅✅✅ */
+.subs > div {
+  height: 61.6rem;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  max-width: 100rem;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.mail {
+  width: 12rem;
+}
+
+.subs > div h2 {
+  font-size: 3.6rem;
+  color: rgba(255, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(140, 4, 22, 0.4);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.subs > div p {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+  max-width: 60rem;
+  align-self: center;
+  margin-bottom: 3rem;
+}
+
+.subs-form form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.email {
+  width: 40rem;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  /* border: none; */
+  background-color: #fdf2e9;
+  border-radius: 50px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border: 1.5px solid rgba(255, 0, 0, 0.4);
+  position: relative;
+}
+
+.button-subs {
+  position: absolute;
+  right: 36.8%;
+
+  width: 15rem;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  /* border: none; */
+  background-color: rgba(169, 7, 7, 0.6);
+  border-radius: 0px 50px 50px 0px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border: 1.5px solid rgba(255, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.button-subs[value] {
+  color: rgba(232, 231, 231, 0.8);
+  font-weight: 600;
+}
+
+.subs *:focus {
+  outline: none;
+}
+/* ⛔⛔⛔ */
+
+/* FOOTER✅✅✅ */
+.footer {
+  background-color: rgb(7, 2, 17);
+  /* height: 60rem; */
+  margin-top: 9.6rem;
+}
+
+.footer > div {
+  padding: 10rem 10rem 4rem 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.footer--left {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+}
+
+.footer--left span {
+  font-size: 1.8rem;
+  color: rgba(254, 254, 254, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.footer--left .date {
+  margin-top: 30rem;
+}
+
+.footer--mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex: 1;
+}
+
+.footer--mid img {
+  width: 5.6rem;
+  cursor: pointer;
+}
+
+.footer--right {
+  align-self: flex-start;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.personal {
+  font-size: 1.8rem;
+  color: rgba(254, 254, 254, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.uns {
+  margin-top: 30rem;
+  font-size: 1.8rem;
+  color: rgba(254, 254, 254, 0.6);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(50, 50, 50, 0.4);
+  font-weight: 600;
+  align-self: flex-end;
+}
+/* ⛔⛔⛔ */
